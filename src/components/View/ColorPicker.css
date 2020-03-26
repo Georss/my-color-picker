@@ -8,7 +8,7 @@
 .box-color-picker:hover {
     border: solid #00FF7F 1px;
 }
-.box-color-picker:focus {
+.border-active {
     border: solid #00FF7F 1px;
 }
 .container-view {
