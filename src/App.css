@@ -1,0 +1,61 @@
+.App {
+  margin: 30px 5% 0px 5%;
+  display: flex;
+  border: solid 1px;
+  padding: 10px 10px 10px 10px;
+  flex-direction: column;
+}
+
+p {
+  font-size: 24px;
+}
+
+h1 {
+  font-size: 72px;
+}
+
+h4 {
+  font-size: 48px;
+}
+
+p, h1, h4 {
+  font-family: Roboto Regular;
+}
+
+.container-app {
+  display: flex;
+  flex-direction: row;
+}
+
+.container-color-picker {
+  margin-right: 15px;
+}
+
+.color-picker-text {
+  padding-bottom: 7px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  width: 140px;
+  height: 85px;
+  /* border: solid 1px; */
+}
+
+.color-picker-backgrounde {
+  padding-top: 7px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  width: 140px;
+  height: 85px;
+  /* border: solid 1px; */
+}
+
+.container-view {
+  flex-grow: 1;
+  padding-left: 35px;
+  border: solid 1px;
+  line-height: 30%;
+}

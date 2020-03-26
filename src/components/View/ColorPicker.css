@@ -1,0 +1,19 @@
+.box-color-picker {
+    width: 22px;
+    height: 22px;
+    border: solid 1px;
+    margin: 2px;
+    cursor: pointer;
+}
+.box-color-picker:hover {
+    border: solid #00FF7F 1px;
+}
+.box-color-picker:focus {
+    border: solid #00FF7F 1px;
+}
+.container-view {
+    flex-grow: 1;
+    padding-left: 35px;
+    border: solid 1px;
+    line-height: 30%;
+  }
