@@ -11,8 +11,8 @@ function App() {
     // States
     const [colorText, setColorText] = useState('');
     const [colorBackgrounde, setColorBackgrounde] = useState('');
-    const [pickerTextId, setPickerTextID] = useState('');
-    const [pickerBackgroundeId, setPickerBackgroundeID] = useState('');
+    const [pickerTextId, setPickerTextID] = useState(undefined);
+    const [pickerBackgroundeId, setPickerBackgroundeID] = useState(undefined);
 
     // Colors
     const colors = Colors.map(color => `#${color}`);
