@@ -3,7 +3,7 @@ import './ColorPicker.css';
 
 const ColorPickerBackgrounde = ({ color, index, getColorBackgrounde, ID }) => {
 
-    const activeBorder = ID == index ? 'border-active' : '';
+    const activeBorder = ID === index.toString() ? 'border-active' : '';
 
     return (
         <div
