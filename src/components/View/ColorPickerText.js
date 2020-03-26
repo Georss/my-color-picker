@@ -3,7 +3,7 @@ import './ColorPicker.css';
 
 const ColorPickerText = ({ color, index, getColorText, ID }) => {
 
-    const activeBorder = ID == index ? 'border-active' : '';
+    const activeBorder = ID === index.toString() ? 'border-active' : '';
 
     return (
         <div
