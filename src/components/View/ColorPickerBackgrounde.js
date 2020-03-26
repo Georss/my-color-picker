@@ -16,3 +16,4 @@ const ColorPickerBackgrounde = ({ color, index, getColorBackgrounde, ID }) => {
 };
 
 export default ColorPickerBackgrounde;
+
